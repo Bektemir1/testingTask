@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+}
+
+.main-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header-desc{
+    font-size: 16px;
+    color:#405169;
+}
+.box-item{
+    background: #F7F8FC;
+    width:120px;
+    height: 120px;
+    border-radius:5px;
+    color:#7F8A95;
+    line-height:17px;
+    padding:0 10px;
+}
+.box-item i{
+    font-size:30px;
+}
+
+.main-wrapper{
+    background:  #F7F8FC;
+    padding:100px 40px;
+    color: #405169
+}
+.wrapper-item{
+    background: white;
+    border-radius:10px;
+    padding:20px;
+    color: #7F8A95;
+    margin-bottom: 20px;
+}
+.try-btn{
+    background: #77BCFE;
+    border:1px solid #77BCFE;
+}
+.wrapper-item i{
+    font-size: 24px;
+}
+.wrapper-item h3{
+    font-size: 18px;
+    color:#222;
+}
+.request-block{
+    background: #F5FAFF;
+    padding:50px 0;
+    position: relative;
+}
+.request-title{
+    color: #405169;
+}
+.request-img , .request-img2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.request-img{
+    top: 0;
+    left: 0;
+}
+
+.request-img2{
+    bottom: 0;
+    right: 0;
+}
+.tariff{
+    border:1px solid #e6e6e6;
+    border-radius:10px;
+    overflow: hidden;
+    padding:0px 10px;
+ 
+}
+.tariff-list{
+    list-style-type: none;
+}
+.tariff-btn{
+    background: #F7F8FC;
+    color:#000;
+    border:none;
+}
+.tariff-btn:hover{
+    background: blue;
+}
+footer{
+    padding:50px 0;
+    background: #F3F4F9;
+}
+
+.footer-title{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.footer-info{
+    color: #7F8A95;
+    font-size: 16px;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-text{
+    color: #7F8A95;
+}
+
+@media(max-width:481px){
+    .main-wrapper h2{
+        font-size: 18px;
+    }
+    .registration{
+        width: 360px;
+    }
+}
+
+.registration{
+    width:500px;
+    background: #f5f6fa;
+    padding:50px 50px;
+    color: #7F8A95;
+    margin:50px auto;
+    
+}
+.register-title{
+    color: #7F8A95;
+    font-size:21px;
+    font-weight: 600;
+}
+.registration input{
+    width: 100%;
+    border:none;
+    padding:15px 20px;
+
+}
+.registration input:focus{
+    outline:none;
+}
+select{
+    border:none;
+    background: none;
+    padding:15px 0;
+    margin-right: 10px;
+}
+select:focus{
+    outline:none;
+}
+
+/* Card client */
+
+.client-card{
+    width:450px;
+    background: #F5F6FA;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin: 50px auto;
+    
+}
+.client-card input{
+    width: 100%;
+    border:none;
+    padding:10px 20px;
+    margin-bottom: 10px;
+}
+.header-client i{
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.header-client h3{
+    font-size: 18px;
+}
+.table td{
+    background: #E8E8E8;
+    color: #9D9D9D;
+    
+}
+.table th{
+    color:#9d9d9d;
+}
+.save{
+    background: #7F8A95;
+    color:#fff;
+}
